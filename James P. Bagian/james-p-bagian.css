@@ -1,0 +1,531 @@
+.answer-contianer.answer-image.answer-content
+
+
+.answer-content
+
+
+
+/*========================ZOOVU STYLES========================*/
+
+/**** ANSWERS CONTAINER START ****/
+/**** ANSWERS CONTAINER START ****/
+/**** ANSWERS CONTAINER START ****/
+/**** ANSWERS CONTAINER START ****/
+
+.answers-wrapper .answer-image .image-element {
+	border-radius: 5% !important;
+	height: 250px;
+	width: 250px;
+	justify-content: center !important;
+	align-items: center !important;
+	padding: auto !important;
+	margin: auto !important;
+}
+.answer-wrapper, .answer-text{
+	justify-content: center !important;
+	align-items: center !important;
+	padding: auto !important;
+	margin: auto !important;
+	margin-top: 300px !important;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	height: 50px !important;
+	border-radius: 54px !important;
+}
+
+.answer-text {
+	border: 2.5px solid #f0f0ef !important;
+	color: #2c2a29 !important;
+	font-weight: 600 !important;
+	max-width: 258px !important;
+}
+.answer-content {
+	background: transparent !important;
+}
+
+/* Removes Oxygen effects */
+.is-selected.has-image label::after, .is-selected.has-image label::before, .is-selected.has-image .answer-content::before, .is-selected.has-image .answer-content::after {
+	opacity: 1;
+	background-color: transparent !important;
+}
+.is-selected .answer-text {
+	background: #fbdad4 !important;
+	border-color: #fbdad4 !important;
+}
+.is-selected .answer-content .answer-text {
+	background-color: #fbdad4 !important;
+	border-color: #fbdad4 !important;
+	color: #2c2a29 !important;
+}
+
+.answers-wrapper .answer:hover {
+	box-shadow: none !important;
+}
+.answers-wrapper .answer:focus {
+	box-shadow: none !important;
+}
+
+/* Info trigger button for answers */
+.answer-content .answer-info-text-trigger {
+	margin: 20px 30px !important;
+}
+
+/* questions without answer choice selection */
+#question-207642 .answer-content .answer-text, #question-217771 .answer-content .answer-text, #question-207641  .answer-content .answer-text{
+
+	display: none !important;
+}
+
+
+
+#question-207642 .is-selected.has-image .answer-image .image-element, #question-217771 .is-selected.has-image .answer-image .image-element, #question-207641 .is-selected.has-image .answer-image .image-element{
+	border: 10px solid rgb(251, 218, 212) !important;
+}
+
+/**** ANSWERS CONTAINER END ****/
+/**** ANSWERS CONTAINER END ****/
+/**** ANSWERS CONTAINER END ****/
+/**** ANSWERS CONTAINER END ****/
+
+/**** NAVIGATION BAR CONTAINER START ****/
+/**** NAVIGATION BAR CONTAINER START ****/
+/**** NAVIGATION BAR CONTAINER START ****/
+/**** NAVIGATION BAR CONTAINER START ****/
+
+/* Modify the progression button for skips. */
+.navigation-skip-button{
+	background: gray !important;
+	border: none !important;
+	padding: 20px 90px !important;
+}
+/* Modify the progression button. */
+.navigation-next-button, .navigation-back-button, .start-over-button {
+	background: #2c2a29 !important;
+	border: none !important;
+	padding: 20px 10px !important;
+	color: white !important;
+}
+/*Navigation bar*/
+.page-selector-wrapper button {
+	border-color: transparent !important;
+	height: 60px !important;
+	background-color: #f0f0ef !important;
+	width: 20px !important;
+}
+/*Navigation bar*/
+.page-selector-wrapper button.visited.is-selected {
+	border-color: transparent !important;
+	height: 60px !important;
+	background-color: #fbdad4 !important;
+}
+button.visited::after, button.page-selector::after {
+	display: none !important;
+}
+
+/**** NAVIGATION BAR CONTAINER END ****/
+/**** NAVIGATION BAR CONTAINER END ****/
+/**** NAVIGATION BAR CONTAINER END ****/
+/**** NAVIGATION BAR CONTAINER END ****/
+
+/**** NAVIGATION BUTTONS CONTAINER START ****/
+/**** NAVIGATION BUTTONS CONTAINER START ****/
+/**** NAVIGATION BUTTONS CONTAINER START ****/
+/**** NAVIGATION BUTTONS CONTAINER START ****/
+
+/* Removes transition state of navigation button when auto progression is enabled. */
+.navigation-next-button, .navigation-submit-button {
+	transition: none !important ;
+}
+/* Reapplies transitions to the hover states of the buttons. */
+.navigation-next-button:hover, .navigation-submit-button:hover {
+	transition: 0.3s ease 0s !important;
+}
+
+/**** NAVIGATION BUTTONS CONTAINER END ****/
+/**** NAVIGATION BUTTONS CONTAINER END ****/
+/**** NAVIGATION BUTTONS CONTAINER END ****/
+/**** NAVIGATION BUTTONS CONTAINER END ****/
+
+/**** Question TEXT CONTAINER START ****/
+/**** Question TEXT CONTAINER START ****/
+/**** Question TEXT CONTAINER START ****/
+/**** Question TEXT CONTAINER START ****/
+
+/* Modifying question text. */
+.questions-wrapper p {
+	font-weight: 200 !important;
+	margin-bottom: 50px !important;
+	color: #2c2a29 !important;
+}
+
+/* Controls the question banner image */
+.question-image::after {
+	background: none !important;
+}
+/* Controls the question banner image */
+.question-image .image-element {
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	margin-bottom: 80px !important;
+}
+/* Controls the question banner image */
+.question-image {
+	margin-bottom: 100px !important;
+	overflow: visible !important;
+}
+.question-image p {
+	margin-top: 450px !important;
+	top: 100px !important;
+}
+
+
+/**** Question TEXT CONTAINER END ****/
+/**** Question TEXT CONTAINER END ****/
+/**** Question TEXT CONTAINER END ****/
+/**** Question TEXT CONTAINER END ****/
+
+button span {
+	display: block;
+	color: #2c2a29 !important;
+	font-size: 14.4px;
+	font-weight: 600 !important;
+	width: 35px !important;
+	height: 35px !important;
+	border-radius: 50% !important;
+	background-color: rgba(250,250,250, 0.7) !important;
+	margin: auto !important;
+	padding: 7px !important;
+}
+button.page-selector span, button.visited span{
+	align-items: center !important;
+	justify-content: center !important;
+	padding: auto !important;
+	margin: auto !important;
+	text-align: center !important;
+}
+
+/**** RESULTS PAGE CONTAINER START ****/
+/**** RESULTS PAGE CONTAINER START ****/
+/**** RESULTS PAGE CONTAINER START ****/
+/**** RESULTS PAGE CONTAINER START ****/
+
+/* Controls the price of the products */
+.price {
+	font-weight: 800 !important;
+	font-size: 25px !important;
+	color: #2c2a29 !important;
+}
+/* Controls the product "Show More" buttons */
+.product-button {
+	border: none !important;
+	background: #2c2a29 !important;
+	color: white !important;
+	border-radius: 36px;
+	width: fit-content !important;
+	padding: 11px 16px !important;
+	text-transform: none !important;
+}
+/* Controls the product name */
+.product-name {
+	color: #2c2a29 !important;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+}
+
+
+/* Adds pseudo text above the top results area */
+#bundle-0::before {
+	content: "Here's our top picks for you.";
+	width: auto !important;
+	height: 55px !important;
+	display: block !important;
+	margin-top: 28px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+/* More options pseudo-text */
+#bundle-1::before {
+	content: "More options:";
+	width: auto !important;
+	height: 55px !important;
+	display: block !important;
+	margin-top: 28px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.products-bundle-header {
+	display: none !important;
+}
+
+/**** RESULTS PAGE CONTAINER END ****/
+/**** RESULTS PAGE CONTAINER END ****/
+/**** RESULTS PAGE CONTAINER END ****/
+/**** RESULTS PAGE CONTAINER END ****/
+
+/**** DESKTOP VIEWPORT CSS START ****/
+/**** DESKTOP VIEWPORT CSS START ****/
+/**** DESKTOP VIEWPORT CSS START ****/
+/**** DESKTOP VIEWPORT CSS START ****/
+
+@media (min-width: 767px) {
+	#question-207642 .answer, #question-217771 .answer {
+		width: calc(20% - 14px) !important;
+		height: auto !important;
+
+	}
+
+	#question-207641 .answer {
+		width: calc(25% - 14px) !important;
+		height: auto !important;
+
+	}
+
+	.answer-content, .has-image label {
+		min-height: 278px !important;
+		min-width: 278px !important;
+	}
+
+	#question-207641 .answers-wrapper, #question-207645 .answers-wrapper, #question-217770 .answers-wrapper {
+		justify-content: center !important;
+	}
+
+	.products-bundle .carousel .hooper-track {
+		flex: 0 0 auto;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+}
+
+/**** DESKTOP VIEWPORT CSS END ****/
+/**** DESKTOP VIEWPORT CSS END ****/
+/**** DESKTOP VIEWPORT CSS END ****/
+/**** DESKTOP VIEWPORT CSS END ****/
+
+/**** MOBILE VIEWPORT CSS START ****/
+/**** MOBILE VIEWPORT CSS START ****/
+/**** MOBILE VIEWPORT CSS START ****/
+/**** MOBILE VIEWPORT CSS START ****/
+
+@media (max-width: 767px) {
+
+
+      #question-207641  .answers-wrapper .answer-image .image-element {
+	border-radius: 5% !important;
+	height: 200px !important;
+	width: 200px !important;
+
+}
+
+	.answers-wrapper {
+		flex-flow: row wrap !important;
+		margin-bottom: 15px;
+	}
+
+
+	#question-207642 .answer, #question-217771 .answer {
+		width: calc(33% - 14px) !important;
+		height: auto !important;
+		max-height: 272.8px !important;
+		/* min-height: 272.8px !important;
+		*/
+	}
+	#question-207642 .answers-wrapper {
+		justify-content: center !important;
+	}
+
+
+	.question-image .image-element {
+		background-image: url(//assets-barracuda-zoovu.azureedge.net/zoovu/ee40f79a-83ba-4396-ae5f-d3a035ae33a8) !important;
+
+                 background-position: top center !important;
+		
+	}
+
+
+        .question-image {
+
+         min-height: 1100px !important;
+         }
+
+
+	.has-image .answer-content {
+		width: 100%;
+		min-height: none !important;
+	}
+
+	.single-question-wrapper:not(#question-207641) .answers-wrapper .answer-image .image-element {
+		max-height: 100px !important;
+		max-width: 100px !important;
+	}
+	.single-question-wrapper#question-207641 .answers-wrapper .answer-image {
+		position: relative;
+		min-height: 100px;
+	}
+
+	.answer-content, .has-image label {
+		min-height: 110px !important;
+	}
+
+	.answer-wrapper, .answer-text {
+		margin: 120px auto auto !important;
+	}
+	.question-image p {
+		margin-top: 450px !important;
+		top: 70px !important;
+                transform: translate(-50%, 200px) !important;
+	}
+	#bundle-0::before {
+		padding: 0 2%;
+	}
+        .container-1-0-10 label {
+
+                flex-flow: column !important;
+
+         }
+
+
+
+
+}
+
+
+/**** MOBILE VIEWPORT CSS END ****/
+/**** MOBILE VIEWPORT CSS END ****/
+/**** MOBILE VIEWPORT CSS END ****/
+/**** MOBILE VIEWPORT CSS END ****/
+
+
+/*========================SALLY STYLES========================*/
+/* Page Selector Padding */
+.page-selector {
+	padding: 0 !important;
+}
+/* Colors:$sally-red: #e4002b;
+$sally-blush: #fbdad4;
+$sally-blush-2: #f8c1b8;
+$sally-gray: #f0f0ef;
+$sally-black: #2c2a29;
+*/
+/* Quiz Background */
+/* .zoovu-assistant {
+	background: rgba(251, 218, 212, 0.45) !important;
+}
+*/
+/* Required Alert */
+.container-1-0-45 .question-validation-message {
+	width: 50%;
+	margin: 0 auto !important;
+	background-color: #e4002b !important;
+	color: white !important;
+	font-weight: 600 !important;
+	padding: 1%;
+}
+/* Matching Sally Branded Styles */
+/* Modify progression butttons */
+.navigation-next-button,.navigation-back-button,.start-over-button {
+	border-radius: 54px;
+	background: #2c2a29 !important;
+	color: white !important;
+	border-color: #2c2a29 !important;
+}
+.navigation-next-button:hover,.navigation-back-button:hover,.start-over-button:hover,.navigation-next-button:active,.navigation-back-button:active,.start-over-button:active {
+	background: #f8c1b8 !important;
+	border-color: #f8c1b8 !important;
+}
+/* Tooltip */
+.tooltip .tooltip-inner {
+	background-color: #f8c1b8 !important;
+	color: #2c2a29 !important;
+}
+.tooltip .tooltip-arrow {
+	border-color: #f8c1b8 !important;
+}
+/* Product Tile */
+.product-recommendation-bundle {
+	border: 1px solid rgba(0,0,0,.125) !important;
+	border-radius: .475rem !important;
+	background-color: white;
+}
+.product-recommendation-bundle:hover {
+	box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 15%) !important;
+}
+/* Remove Price Until ATC */
+.product-price {
+	display: none;
+}
+/* Product Set Arrows */
+.hooper-navigation button {
+	/* color: #f0f0ef !important;
+	*/
+	color: #2c2a29 !important;
+	border: 1px solid #f0f0ef !important;
+	border-radius: 10px;
+}
+.hooper-navigation button:hover {
+	background-color: #f8c1b8 !important;
+	border-color: #f8c1b8 !important;
+}
+.hooper-navigation button .icon {
+	fill: #2c2a29 !important;
+}
+.hooper-navigation button:hover .icon {
+	fill: white !important;
+}
+/* Hide subsequent set carets, */
+.products-bundle:not(#bundle-0) .hooper-next {
+	display: none;
+}
+
+/* Main Product Set */
+#bundle-0 {
+	background-color: #fbdad4;
+}
+#bundle-0 .hooper-next {
+	margin-right: 2px;
+}
+#bundle-0 .hooper-prev {
+	margin-left: 2px;
+}
+/* Color Selection Badge */
+#bundle-0 .hooper-slide:first-of-type .product-details {
+	position: relative;
+}
+#bundle-0 .hooper-slide:first-of-type .product-details::before {
+        display: none !important;
+	position: absolute;
+	top: -35px;
+	left: 25%;
+	width: 50%;
+	content: 'Your Color';
+	text-align: center;
+	padding: 1% 0;
+	border-radius: 50px;
+	background-color: #e4002b;
+	color: white !important;
+}
+@media (min-width: 768px) {
+	#bundle-0 .hooper-slide:first-of-type .product-details::before {
+		left: 20%;
+		width: 60%;
+	}
+
+}
+/* Swatches */
+@media (max-width: 767px) {
+	.container-1-0-11 .answers-wrapper .answer {
+		margin: 0px 0px 10px;
+	}
+}
+/* Question 3 */
+@media (max-width: 767px) {
+	#question-217771 .answers-wrapper {
+		justify-content: center;
+	}
+}
+
+#answer-988696-wrapper span.answer-text, #answer-988697-wrapper span.answer-text, #answer-988698-wrapper span.answer-text, #answer-988702-wrapper span.answer-text, #answer-988703-wrapper span.answer-text, #answer-988693-wrapper span.answer-text, #answer-988694-wrapper span.answer-text, #answer-988695-wrapper span.answer-text, #answer-988699-wrapper span.answer-text, #answer-988700-wrapper span.answer-text, #answer-988701-wrapper span.answer-text, #answer-988716-wrapper span.answer-text, #answer-988717-wrapper span.answer-text, #answer-988720-wrapper span.answer-text, #answer-988721-wrapper span.answer-text{
+  margin-top: 0px !important;
+}
